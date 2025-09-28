@@ -1,7 +1,7 @@
 /* Flexbox Part 1 */
 
 #flex-section1 ul {
-    list-style: none;
+	list-style: none;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
@@ -15,7 +15,7 @@
 /* Flexbox Part 2 */
 
 #flex-section2 ul {
-    list-style: none;
+	list-style: none;
 	display: flex;
 	flex-direction: row;
 	padding: 0;
@@ -23,19 +23,19 @@
 }
 
 #flex-section2 li {
-flex: 1;
+	flex: 1;
 }
 
 #flex-section2 .item1 {
-order: 1;
+	order: 1;
 }
 
 #flex-section2 .item2 {
-order: 3;
+	order: 3;
 }
 
 #flex-section2 .item3 {
-order: 2;
+	order: 2;
 }
 
 /* end Flexbox Part 2 */
@@ -44,11 +44,18 @@ order: 2;
 /* Flexbox Part 3 */
 
 #flex-section3 .box {
-
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 #flex-section3 .tags ul {
-
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 0;
+	margin: 0;
 }
 
 /* end Flexbox Part 3 */
@@ -56,47 +63,31 @@ order: 2;
 
 /* Grid Part 1 */
 
-#grid-section1 .grid {
-
-}
+#grid-section1 .grid {}
 
 /* end Grid Part 1 */
 
 
 /* Grid Part 2 */
 
-#grid-section2 .gridboxblue {
+#grid-section2 .gridboxblue {}
 
-}
-
-#grid-section2 .gridboxred {
-
-}
+#grid-section2 .gridboxred {}
 
 /* end Grid Part 2 */
 
 
 /* Grid Part 3 */
 
-#grid-section3 .grid {
+#grid-section3 .grid {}
 
-}
+#grid-section3 .box1 {}
 
-#grid-section3 .box1 {
+#grid-section3 .box2 {}
 
-}
+#grid-section3 .box3 {}
 
-#grid-section3 .box2 {
-
-}
-
-#grid-section3 .box3 {
-
-}
-
-#grid-section3 .box4 {
-
-}
+#grid-section3 .box4 {}
 
 /* end Grid Part 3 */
 
